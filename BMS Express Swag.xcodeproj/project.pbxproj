@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFAEE010247AC89000B42963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEE00F247AC89000B42963 /* AppDelegate.swift */; };
+		CFAEE012247AC89000B42963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEE011247AC89000B42963 /* SceneDelegate.swift */; };
+		CFAEE014247AC89000B42963 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEE013247AC89000B42963 /* CategoryVC.swift */; };
+		CFAEE017247AC89000B42963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAEE015247AC89000B42963 /* Main.storyboard */; };
+		CFAEE019247AC89700B42963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAEE018247AC89700B42963 /* Assets.xcassets */; };
+		CFAEE01C247AC89700B42963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAEE01A247AC89700B42963 /* LaunchScreen.storyboard */; };
+		CFAEE029247ACCC700B42963 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEE028247ACCC700B42963 /* Category.swift */; };
+		CFAEE02B247AD59B00B42963 /* Categorycell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEE02A247AD59B00B42963 /* Categorycell.swift */; };
+		CFAEE02E247AE18D00B42963 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEE02D247AE18D00B42963 /* DataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFAEE00C247AC89000B42963 /* BMS Express Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMS Express Swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAEE00F247AC89000B42963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFAEE011247AC89000B42963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFAEE013247AC89000B42963 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		CFAEE016247AC89000B42963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFAEE018247AC89700B42963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFAEE01B247AC89700B42963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFAEE01D247AC89700B42963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAEE028247ACCC700B42963 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CFAEE02A247AD59B00B42963 /* Categorycell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categorycell.swift; sourceTree = "<group>"; };
+		CFAEE02D247AE18D00B42963 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAEE009247AC89000B42963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAEE003247AC89000B42963 = {
+			isa = PBXGroup;
+			children = (
+				CFAEE00E247AC89000B42963 /* BMS Express Swag */,
+				CFAEE00D247AC89000B42963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAEE00D247AC89000B42963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEE00C247AC89000B42963 /* BMS Express Swag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAEE00E247AC89000B42963 /* BMS Express Swag */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEE02C247AE16B00B42963 /* Service */,
+				CFAEE027247AC8E400B42963 /* Controller */,
+				CFAEE026247AC8DD00B42963 /* View */,
+				CFAEE025247AC8D500B42963 /* Model */,
+				CFAEE00F247AC89000B42963 /* AppDelegate.swift */,
+				CFAEE011247AC89000B42963 /* SceneDelegate.swift */,
+				CFAEE015247AC89000B42963 /* Main.storyboard */,
+				CFAEE018247AC89700B42963 /* Assets.xcassets */,
+				CFAEE01A247AC89700B42963 /* LaunchScreen.storyboard */,
+				CFAEE01D247AC89700B42963 /* Info.plist */,
+			);
+			path = "BMS Express Swag";
+			sourceTree = "<group>";
+		};
+		CFAEE025247AC8D500B42963 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEE028247ACCC700B42963 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFAEE026247AC8DD00B42963 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEE02A247AD59B00B42963 /* Categorycell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFAEE027247AC8E400B42963 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEE013247AC89000B42963 /* CategoryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CFAEE02C247AE16B00B42963 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CFAEE02D247AE18D00B42963 /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAEE00B247AC89000B42963 /* BMS Express Swag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAEE020247AC89700B42963 /* Build configuration list for PBXNativeTarget "BMS Express Swag" */;
+			buildPhases = (
+				CFAEE008247AC89000B42963 /* Sources */,
+				CFAEE009247AC89000B42963 /* Frameworks */,
+				CFAEE00A247AC89000B42963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMS Express Swag";
+			productName = "BMS Express Swag";
+			productReference = CFAEE00C247AC89000B42963 /* BMS Express Swag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAEE004247AC89000B42963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "kamrujjaman Joy";
+				TargetAttributes = {
+					CFAEE00B247AC89000B42963 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CFAEE007247AC89000B42963 /* Build configuration list for PBXProject "BMS Express Swag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFAEE003247AC89000B42963;
+			productRefGroup = CFAEE00D247AC89000B42963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAEE00B247AC89000B42963 /* BMS Express Swag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAEE00A247AC89000B42963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAEE01C247AC89700B42963 /* LaunchScreen.storyboard in Resources */,
+				CFAEE019247AC89700B42963 /* Assets.xcassets in Resources */,
+				CFAEE017247AC89000B42963 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAEE008247AC89000B42963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAEE02B247AD59B00B42963 /* Categorycell.swift in Sources */,
+				CFAEE014247AC89000B42963 /* CategoryVC.swift in Sources */,
+				CFAEE010247AC89000B42963 /* AppDelegate.swift in Sources */,
+				CFAEE02E247AE18D00B42963 /* DataService.swift in Sources */,
+				CFAEE012247AC89000B42963 /* SceneDelegate.swift in Sources */,
+				CFAEE029247ACCC700B42963 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFAEE015247AC89000B42963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAEE016247AC89000B42963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAEE01A247AC89700B42963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAEE01B247AC89700B42963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAEE01E247AC89700B42963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFAEE01F247AC89700B42963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAEE021247AC89700B42963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RMXX9974TH;
+				INFOPLIST_FILE = "BMS Express Swag/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamrujjaman.BMS-Express-Swag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAEE022247AC89700B42963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RMXX9974TH;
+				INFOPLIST_FILE = "BMS Express Swag/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamrujjaman.BMS-Express-Swag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAEE007247AC89000B42963 /* Build configuration list for PBXProject "BMS Express Swag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAEE01E247AC89700B42963 /* Debug */,
+				CFAEE01F247AC89700B42963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAEE020247AC89700B42963 /* Build configuration list for PBXNativeTarget "BMS Express Swag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAEE021247AC89700B42963 /* Debug */,
+				CFAEE022247AC89700B42963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFAEE004247AC89000B42963 /* Project object */;
+}
